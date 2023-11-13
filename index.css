@@ -3,17 +3,18 @@ body {
     background: black;
     text-align: center;
     color: #ffffff;
-    
+    font-family: 'Inter', sans-serif;
 }
 
 #page-container {
-    width: 550px;
+    width: 500px;
     background: #1F2937;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
-    
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 #hero {
@@ -22,7 +23,8 @@ body {
     flex-direction: column;   
     align-items: center; 
     margin-bottom: 20px;
-    
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     /* justify-content: center; */
 }
 
@@ -61,7 +63,7 @@ button {
 }
 
 .units-tile {
-    width: 500px;
+    width: 450px;
     background: #273549;
     margin: 10px auto;
     border-radius: 5px;
